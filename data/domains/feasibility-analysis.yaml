@@ -1,0 +1,171 @@
+# Domain: Feasibility & Viability Analysis
+domain: feasibility-analysis
+title_tr: Fizibilite ve Uygunluk Analizi
+description_tr: Bir projenin teknik, ekonomik, yasal ve operasyonel yapılabilirliğini değerlendirme metrikleri ve kavramları.
+
+terms:
+  # 1. TELOS Modeli
+  - id: technical-feasibility
+    term_en: Technical Feasibility
+    term_tr: Teknik Fizibilite
+    category: telos-framework
+    definition: Mevcut donanım, yazılım mimarisi, teknoloji yığını ve ekip yetkinliğinin projeyi hayata geçirmeye yetip yetmediğinin analizi.
+    tags: [telos, architecture, capability]
+
+  - id: economic-feasibility
+    term_en: Economic Feasibility
+    term_tr: Ekonomik / Finansal Fizibilite
+    category: telos-framework
+    definition: Projenin maliyetlerinin hesaplanması ve sağlayacağı finansal getirinin yatırıma değip değmeyeceğinin değerlendirilmesi.
+    tags: [telos, finance, investment]
+
+  - id: legal-compliance-feasibility
+    term_en: Legal / Compliance Feasibility
+    term_tr: Yasal ve Hukuki Uygunluk
+    category: telos-framework
+    definition: Projenin yasalara, veri güvenliği regülasyonlarına (KVKK, GDPR) ve lisans şartlarına uygunluğu.
+    tags: [telos, legal, compliance]
+
+  - id: operational-feasibility
+    term_en: Operational Feasibility
+    term_tr: Operasyonel Fizibilite
+    category: telos-framework
+    definition: Geliştirilen sistemin mevcut kurumsal işleyişe, kullanıcı alışkanlıklarına ve şirket kültürüne ne kadar uyum sağlayabileceğinin ölçümü.
+    tags: [telos, operations, culture]
+
+  - id: schedule-feasibility
+    term_en: Schedule Feasibility
+    term_tr: Takvim / Zaman Fizibilitesi
+    category: telos-framework
+    definition: Projenin hedeflenen son teslim tarihine (deadline) kadar tamamlanma olasılığının analizi.
+    tags: [telos, planning, timeline]
+
+  # 2. Finansal Değerlendirme & Yatırım
+  - id: roi
+    term_en: Return on Investment (ROI)
+    term_tr: Yatırım Getirisi
+    category: financial-evaluation
+    definition: Yapılan yatırımın ne kadar karlı olduğunu gösteren temel finansal oran.
+    formula: "(Kazanılan Net Fayda - Toplam Yatırım Maliyeti) / Toplam Yatırım Maliyeti"
+    tags: [finance, metric, profitability]
+
+  - id: tco
+    term_en: Total Cost of Ownership (TCO)
+    term_tr: Toplam Sahip Olma Maliyeti
+    category: financial-evaluation
+    definition: Yazılımın sadece geliştirme değil; sunucu, lisans, bakım, destek ve eğitim dahil toplam ömür boyu maliyeti.
+    tags: [finance, lifecycle, cost]
+
+  - id: capex
+    term_en: Capital Expenditures (CapEx)
+    term_tr: Sermaye Harcaması
+    category: financial-evaluation
+    definition: Sunucu alımı, donanım veya tek seferlik kalıcı lisanslar gibi başlangıç duran varlık yatırımları.
+    tags: [finance, asset, investment]
+
+  - id: opex
+    term_en: Operational Expenditures (OpEx)
+    term_tr: Faaliyet Giderleri
+    category: financial-evaluation
+    definition: AWS/Azure bulut faturaları, SaaS üyelikleri ve aylık bakım gibi devam eden operasyonel masraflar.
+    tags: [finance, cloud, recurring]
+
+  - id: payback-period
+    term_en: Payback Period
+    term_tr: Geri Ödeme Süresi
+    category: financial-evaluation
+    definition: Projeye yapılan yatırımın, projenin getirdiği kazanç ile kendini kaç ay/yıl içinde amorti edeceğini gösteren süre.
+    tags: [finance, timeline, break-even]
+
+  - id: break-even-point
+    term_en: Break-Even Point (BEP)
+    term_tr: Başa Baş Noktası
+    category: financial-evaluation
+    definition: Projenin toplam gelirinin toplam maliyetine eşitlendiği, kar/zararın sıfır olduğu finansal kırılma anı.
+    tags: [finance, revenue, cost]
+
+  - id: npv
+    term_en: Net Present Value (NPV)
+    term_tr: Net Bugünkü Değer
+    category: financial-evaluation
+    definition: Gelecekte elde edilecek tahmini gelirlerin enflasyon/iskonto oranı düşülerek bugünkü para değerine indirgenmiş net tutarı.
+    tags: [finance, valuation, discount-rate]
+
+  - id: cost-of-delay
+    term_en: Cost of Delay (CoD)
+    term_tr: Gecikme Maliyeti
+    category: financial-evaluation
+    definition: Projenin veya bir özelliğin pazara sunulmasında yaşanacak her günlük/haftalık gecikmenin şirkete olan ciro veya fırsat maliyeti.
+    tags: [finance, agile, opportunity-cost]
+
+  # 3. Teknik Uygunluk & Mimari
+  - id: poc
+    term_en: Proof of Concept (PoC)
+    term_tr: Kavram Kanıtı
+    category: technical-assessment
+    definition: Yeni bir teknolojinin, kütüphanenin veya mimari teorinin pratikte çalışıp çalışmadığını doğrulamak için yapılan küçük ölçekli deneysel prototip.
+    tags: [architecture, experiment, prototyping]
+
+  - id: technical-spike
+    term_en: Technical Spike
+    term_tr: Teknik Araştırma Görevi (Spike)
+    category: technical-assessment
+    definition: Agile sprint'leri içinde bir bilinmezi, teknik riski veya entegrasyon yöntemini araştırmak için ekibe ayrılan zaman kutusu (timebox) odaklı teknik araştırma görevi.
+    tags: [agile, research, risk]
+
+  - id: technical-debt-assessment
+    term_en: Technical Debt Assessment
+    term_tr: Teknik Borç Analizi
+    category: technical-assessment
+    definition: Mevcut kod kalitesi, eski teknolojiler veya eksik mimarinin yeni projeyi geliştirirken ne kadar yavaşlatacağını ölçme.
+    tags: [architecture, refactoring, code-quality]
+
+  - id: vendor-lock-in
+    term_en: Vendor Lock-in
+    term_tr: Tedarikçiye Bağımlılık
+    category: technical-assessment
+    definition: Seçilen bir bulut sağlayıcısı (AWS, Azure) veya üçüncü parti aracın ileride değiştirilmesinin maliyetli ve zor olma riski.
+    tags: [cloud, risk, architecture]
+
+  - id: interoperability
+    term_en: Interoperability
+    term_tr: Birlikte Çalışabilirlik
+    category: technical-assessment
+    definition: Yeni yazılımın mevcut eski (legacy) sistemlerle veya harici kurumsal servislerle entegre olabilme kapasitesi.
+    tags: [integration, architecture, legacy]
+
+  - id: scalability-capacity-planning
+    term_en: Scalability & Capacity Planning
+    term_tr: Ölçeklenebilirlik ve Kapasite Planlama
+    category: technical-assessment
+    definition: Sistemin gelecekteki kullanıcı artışını, veri hacmini ve eşzamanlı işlem yükünü kaldırıp kaldıramayacağının analizi.
+    tags: [performance, load, infrastructure]
+
+  # 4. Regülasyon, Güvenlik & Karar Alma
+  - id: regulatory-compliance
+    term_en: Regulatory Compliance
+    term_tr: Regülatif Uyum
+    category: governance
+    definition: Projenin KVKK, GDPR, PCI-DSS, HIPAA veya ISO 27001 gibi sektör standartlarına uygunluk denetimi.
+    tags: [compliance, security, privacy]
+
+  - id: sla
+    term_en: Service Level Agreement (SLA)
+    term_tr: Hizmet Seviyesi Taahhüdü
+    category: governance
+    definition: Sistemin kesintisiz çalışma süresi (örn. %99.9 Uptime) ve hata anında müdahale hızına dair yasal/operasyonel sözleşme.
+    tags: [operations, legal, uptime]
+
+  - id: go-no-go-decision
+    term_en: Go / No-Go Decision
+    term_tr: Başla / Başlama Kararı
+    category: governance
+    definition: Fizibilite analizinin sonunda yönetimin projenin başlatılmasına, ertelenmesine veya iptal edilmesine karar verdiği nihai kontrol kapısı (Quality Gate).
+    tags: [management, milestone, decision]
+
+  - id: organizational-readiness
+    term_en: Organizational Readiness
+    term_tr: Kurumsal Hazırlık
+    category: governance
+    definition: Şirket içi çalışanların ve operasyon ekiplerinin yeni yazılımı kullanmaya, yönetmeye ve dönüştürmeye yetkinlik olarak hazır olma düzeyi.
+    tags: [change-management, culture, operations]
