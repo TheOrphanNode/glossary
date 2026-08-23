@@ -31,6 +31,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml
 
+      - name: Validate YAML term definitions
+        run: |
+          python scripts/validate_terms.py
+
       - name: Generate Markdown terms and Index
         run: |
           python scripts/generate_terms_md.py
