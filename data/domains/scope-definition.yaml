@@ -1,0 +1,178 @@
+# Domain: Scope Definition & Management
+domain: scope-definition
+title_tr: Kapsamın Belirlenmesi ve Yönetimi
+description_tr: Yazılım projelerinde kapsam sınırları, iş kırılımları, gereksinim seviyeleri ve izlenebilirlik kavramları.
+
+terms:
+  # 1. Kapsam ve Sınır Çizme (Scope Boundaries)
+  - id: project-scope-vs-product-scope
+    term_en: Project Scope vs. Product Scope
+    term_tr: Proje ve Ürün Kapsamı Ayrımı
+    category: scope-boundaries
+    definition: Ürünün sahip olacağı işlev ve özellikleri tanımlayan çerçeve (Ürün Kapsamı) ile o ürünü ortaya çıkarmak için yürütülecek geliştirme, test, devir ve eğitim gibi tüm iş süreçlerini kapsayan çerçevenin (Proje Kapsamı) ayrımıdır.
+    tags: [scope, project-management, boundaries]
+
+  - id: in-scope-vs-out-of-scope
+    term_en: In-Scope vs. Out-of-Scope
+    term_tr: Kapsam İçi ve Kapsam Dışı
+    category: scope-boundaries
+    definition: Proje süresince teslim edilecek özellik ve sorumluluklar (In-Scope) ile projenin takvimini veya bütçesini korumak için yapılmayacağı açıkça beyan edilen maddelerin (Out-of-Scope) net çizgilerle ayrılmasıdır.
+    tags: [scope, boundaries, planning]
+
+  - id: project-scope-statement
+    term_en: Project Scope Statement
+    term_tr: Proje Kapsam Beyanı
+    category: scope-boundaries
+    definition: Projenin hedeflerini, temel teslimatlarını, varsayımlarını, kısıtlarını ve sınırlarını paydaşlar için resmi olarak belgeleyen ana dokümandır.
+    tags: [documentation, formal, baseline]
+
+  - id: scope-baseline
+    term_en: Scope Baseline
+    term_tr: Kapsam Taban Çizgisi
+    category: scope-boundaries
+    definition: Projenin başında onaylanan ve ilerleyen aşamalardaki değişiklikleri/sapmaları ölçmek için referans kabul edilen onaylı kapsam setidir (Scope Statement + WBS + WBS Dictionary).
+    tags: [baseline, quality-gate, project-control]
+
+  - id: system-boundary-context-diagram
+    term_en: System Boundary / Context Diagram
+    term_tr: Sistem Sınır Çizgisi / Bağlam Diyagramı
+    category: scope-boundaries
+    definition: Yazılımın nerede başlayıp nerede bittiğini, dış dünyadaki hangi aktörler (kullanıcılar, üçüncü parti API'ler, donanımlar) ile temas edeceğini gösteren mimari sınır şemasıdır.
+    tags: [architecture, diagram, integration]
+
+  # 2. Kapsam Ayrıştırma ve Hiyerarşik Yapı (Decomposition & WBS)
+  - id: work-breakdown-structure
+    term_en: Work Breakdown Structure (WBS)
+    term_tr: İş Kırılım Yapısı
+    category: decomposition-wbs
+    definition: Proje kapsamını yönetilebilir, daha küçük ve hiyerarşik alt bileşenlere bölen görsel teslimat ağacıdır.
+    tags: [wbs, planning, hierarchy]
+
+  - id: work-package
+    term_en: Work Package
+    term_tr: İş Paketi
+    category: decomposition-wbs
+    definition: İş kırılım yapısının (WBS) en alt seviyesinde yer alan; süresi, maliyeti ve sorumlusu net olarak tahmin edilebilen en küçük iş birimidir.
+    tags: [wbs, task, estimation]
+
+  - id: wbs-dictionary
+    term_en: WBS Dictionary
+    term_tr: İş Kırılım Yapısı Sözlüğü
+    category: decomposition-wbs
+    definition: WBS üzerindeki her bir iş paketinin detaylı açıklamasını, kabul kriterlerini, teknik gereksinimlerini ve kaynak ihtiyaçlarını açıklayan referans kılavuzdur.
+    tags: [wbs, documentation, reference]
+
+  - id: epic-feature-user-story-decomposition
+    term_en: Epic / Feature / User Story Decomposition
+    term_tr: Epic / Feature / User Story Ayrıştırması
+    category: decomposition-wbs
+    definition: Kapsamın çevik (Agile) yaklaşımla büyük stratejik hedeflerden (Epic), sistem yeteneklerine (Feature) ve tek sprintte yapılabilecek kullanıcı hikayelerine (User Story) bölünmesidir.
+    tags: [agile, scrum, user-story]
+
+  - id: decomposition
+    term_en: Decomposition
+    term_tr: Ayrıştırma
+    category: decomposition-wbs
+    definition: Büyük ve karmaşık bir iş teslimatını daha küçük, bağımsız ve net tanımlanmış parçalara bölme eylemidir.
+    tags: [methodology, analysis, structure]
+
+  # 3. Gereksinim Türleri ve Kapsam Seviyeleri (Requirement Scopes)
+  - id: functional-requirements
+    term_en: Functional Requirements (FR)
+    term_tr: Fonksiyonel Gereksinimler
+    category: requirement-scopes
+    definition: Sistemin ne yapması gerektiğini, iş kurallarını ve kullanıcının ekranda gerçekleştireceği davranışları tanımlayan kapsam maddeleridir.
+    tags: [requirements, engineering, business-logic]
+
+  - id: non-functional-requirements
+    term_en: Non-Functional Requirements (NFR)
+    term_tr: Fonksiyonel Olmayan / Nitelik Gereksinimleri
+    category: requirement-scopes
+    definition: Sistemin işi nasıl yapması gerektiğini belirleyen; performans, güvenlik, ölçeklenebilirlik, erişilebilirlik ve uyumluluk kriterleridir.
+    tags: [requirements, performance, security, architecture]
+
+  - id: business-requirements-document
+    term_en: Business Requirements Document (BRD)
+    term_tr: İş Gereksinimleri Dokümanı
+    category: requirement-scopes
+    definition: Müşterinin ve şirketin ticari problemlerini ve sistemden beklediği üst seviye iş çıktısını açıklayan dokümandır.
+    tags: [documentation, business-analysis, strategy]
+
+  - id: software-requirements-specification
+    term_en: Software Requirements Specification (SRS)
+    term_tr: Yazılım Gereksinim Şartnamesi
+    category: requirement-scopes
+    definition: BRD'deki iş gereksinimlerinin mühendislik seviyesinde teknik veri modellerine, API akışlarına ve detaylı davranış kurallarına dönüştürüldüğü şartnamedir.
+    tags: [documentation, engineering, api, specification]
+
+  - id: definition-of-done-acceptance-criteria
+    term_en: Definition of Done (DoD) & Acceptance Criteria
+    term_tr: Tamamlanma Tanımı ve Kabul Kriterleri
+    category: requirement-scopes
+    definition: Bir kapsam maddesinin veya kullanıcı hikayesinin tamamlanmış sayılması için sağlaması gereken nesnel test ve kalite kurallarıdır.
+    tags: [agile, qa, quality-gate]
+
+  # 4. Kapsam Riskleri, Sapmalar ve Kontrol (Scope Risks & Control)
+  - id: scope-creep
+    term_en: Scope Creep
+    term_tr: Kapsam Kayması / Kontrolsüz Şişme
+    category: scope-risks-control
+    definition: Proje devam ederken zaman, bütçe ve kaynak artışı yapılmadan, paydaşlardan gelen gayriresmi isteklerle kapsamın kontrolsüzce büyümesi ve projeyi geciktirmesi riskidir.
+    tags: [risk, anti-pattern, scope-management]
+
+  - id: gold-plating
+    term_en: Gold Plating
+    term_tr: Altın Kaplama / Gereksiz İşçilik
+    category: scope-risks-control
+    definition: Müşteri veya ürün sahibi talep etmediği halde, geliştiricilerin gereksiz karmaşıklık, animasyon veya ekstra kod eklemesi durumudur (Anti-pattern).
+    tags: [risk, anti-pattern, engineering]
+
+  - id: scope-verification-vs-validation
+    term_en: Scope Verification vs. Scope Validation
+    term_tr: Kapsam Doğrulama ve Geçerleme
+    category: scope-risks-control
+    definition: Kapsamın teknik şartnameye uygun üretildiğinin denetlenmesi (Verification) ile üretilen çıktının son kullanıcının gerçek ihtiyacını karşılayıp karşılamadığının doğrulanmasıdır (Validation).
+    tags: [qa, audit, testing]
+
+  - id: change-control-board-change-request
+    term_en: Change Control Board (CCB) & Change Request (CR)
+    term_tr: Değişiklik Kontrol Kurulu ve Değişiklik Talebi
+    category: scope-risks-control
+    definition: Onaylanmış kapsam taban çizgisini (baseline) değiştirmek isteyen her yeni talebin (CR) maliyet, zaman ve risk etkisini değerlendiren resmi kuruldur.
+    tags: [governance, change-management, baseline]
+
+  - id: scope-shielding-scope-freeze
+    term_en: Scope Shielding / Scope Freeze
+    term_tr: Kapsamı Koruma ve Dondurma
+    category: scope-risks-control
+    definition: Belirlenen geliştirme sprint'i veya lansman öncesi dönem boyunca hiçbir yeni kapsam talebinin içeri alınmaması kuralıdır.
+    tags: [planning, stability, agile]
+
+  # 5. İzlenebilirlik ve Kapsam Yönetişimi (Traceability & Governance)
+  - id: requirements-traceability-matrix
+    term_en: Requirements Traceability Matrix (RTM)
+    term_tr: Gereksinim İzlenebilirlik Matrisi
+    category: traceability-governance
+    definition: Her bir iş gereksiniminin hangi yazılım özelliğine, hangi kod modülüne ve hangi test senaryosuna karşılık geldiğini iki yönlü olarak eşleştiren takip tablosudur.
+    tags: [traceability, qa, mapping]
+
+  - id: scope-ambiguity
+    term_en: Scope Ambiguity
+    term_tr: Kapsam Belirsizliği
+    category: traceability-governance
+    definition: Gereksinimlerin muğlak, yoruma açık veya çelişkili yazılması sebebiyle geliştirici ile iş birimi arasında yanlış anlamalara ve hatalı kodlamaya yol açan kapsam kusurudur.
+    tags: [risk, analysis, quality]
+
+  - id: sign-off-on-scope
+    term_en: Sign-off on Scope
+    term_tr: Kapsam Mutabakatı ve Resmi Onay
+    category: traceability-governance
+    definition: Geliştirme ekibi, ürün yönetimi ve iş biriminin belirlenen kapsam sınırları üzerinde anlaştığını beyan eden bağlayıcı imza aşamasıdır.
+    tags: [governance, milestone, formal]
+
+  - id: gap-in-scope
+    term_en: Gap in Scope
+    term_tr: Kapsam Boşluğu
+    category: traceability-governance
+    definition: Mimaride veya iş akışında unutulan, analiz sırasında atlanan ve sistem entegrasyonu anında fark edilerek krize yol açan eksik iş adımlarıdır.
+    tags: [risk, gap-analysis, architecture]
