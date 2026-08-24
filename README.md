@@ -4,7 +4,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 ## 🧭 Hızlı Erişim (Index)
 
-[A](#a) • [B](#b) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [İ](#i̇) • [K](#k) • [N](#n) • [O](#o) • [Ö](#ö) • [P](#p) • [R](#r) • [S](#s) • [T](#t) • [Y](#y)
+[A](#a) • [B](#b) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [İ](#i̇) • [K](#k) • [M](#m) • [N](#n) • [O](#o) • [Ö](#ö) • [P](#p) • [R](#r) • [S](#s) • [T](#t) • [Y](#y) • [5](#5)
 
 ---
 
@@ -12,6 +12,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Acı Noktası / Darboğaz](terms/tr/a/pain-point.md) | Pain Point | `problem-definition` |
 | [Altın Kaplama / Gereksiz İşçilik](terms/tr/a/gold-plating.md) | Gold Plating | `scope-definition` |
 | [Ayrıştırma](terms/tr/a/decomposition.md) | Decomposition | `scope-definition` |
 
@@ -19,9 +20,11 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Balık Kılçığı Diyagramı](terms/tr/b/fishbone-ishikawa-diagram.md) | Fishbone / Ishikawa Diagram | `problem-definition` |
 | [Başa Baş Noktası](terms/tr/b/break-even-point.md) | Break-Even Point (BEP) | `feasibility-analysis` |
 | [Başla / Başlama Kararı](terms/tr/b/go-no-go-decision.md) | Go / No-Go Decision | `feasibility-analysis` |
 | [Birlikte Çalışabilirlik](terms/tr/b/interoperability.md) | Interoperability | `feasibility-analysis` |
+| [Boşluk / Fark Analizi](terms/tr/b/gap-analysis.md) | Gap Analysis | `problem-definition` |
 
 ### D
 
@@ -41,6 +44,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Faaliyet Giderleri](terms/tr/f/opex.md) | Operational Expenditures (OpEx) | `feasibility-analysis` |
+| [Fırsat İfadesi](terms/tr/f/opportunity-statement.md) | Opportunity Statement | `problem-definition` |
 | [Fonksiyonel Gereksinimler](terms/tr/f/functional-requirements.md) | Functional Requirements (FR) | `scope-definition` |
 | [Fonksiyonel Olmayan / Nitelik Gereksinimleri](terms/tr/f/non-functional-requirements.md) | Non-Functional Requirements (NFR) | `scope-definition` |
 
@@ -56,6 +60,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Hedeflenen Durum Analizi](terms/tr/h/to-be-analysis.md) | To-Be Analysis | `problem-definition` |
 | [Hizmet Seviyesi Taahhüdü](terms/tr/h/sla.md) | Service Level Agreement (SLA) | `feasibility-analysis` |
 
 ### İ
@@ -80,12 +85,20 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Kapsam Mutabakatı ve Resmi Onay](terms/tr/k/sign-off-on-scope.md) | Sign-off on Scope | `scope-definition` |
 | [Kapsam Taban Çizgisi](terms/tr/k/scope-baseline.md) | Scope Baseline | `scope-definition` |
 | [Kavram Kanıtı](terms/tr/k/poc.md) | Proof of Concept (PoC) | `feasibility-analysis` |
+| [Kök Neden Analizi](terms/tr/k/root-cause-analysis.md) | Root Cause Analysis (RCA) | `problem-definition` |
 | [Kurumsal Hazırlık](terms/tr/k/organizational-readiness.md) | Organizational Readiness | `feasibility-analysis` |
+
+### M
+
+| Terim (TR) | İngilizce Karşılık | Alan (Domain) |
+| :--- | :--- | :--- |
+| [Mevcut Durum Analizi](terms/tr/m/as-is-analysis.md) | As-Is Analysis | `problem-definition` |
 
 ### N
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Nasıl Yapabiliriz? Sorusu](terms/tr/n/how-might-we.md) | How Might We (HMW) | `problem-definition` |
 | [Net Bugünkü Değer](terms/tr/n/npv.md) | Net Present Value (NPV) | `feasibility-analysis` |
 
 ### O
@@ -104,6 +117,8 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Problem Çerçeveleme](terms/tr/p/problem-framing.md) | Problem Framing | `problem-definition` |
+| [Problem İfadesi](terms/tr/p/problem-statement.md) | Problem Statement | `problem-definition` |
 | [Proje Kapsam Beyanı](terms/tr/p/project-scope-statement.md) | Project Scope Statement | `scope-definition` |
 | [Proje ve Ürün Kapsamı Ayrımı](terms/tr/p/project-scope-vs-product-scope.md) | Project Scope vs. Product Scope | `scope-definition` |
 
@@ -117,6 +132,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Semptom ve Kök Neden Ayrımı](terms/tr/s/symptom-vs-root-cause.md) | Symptom vs. Root Cause | `problem-definition` |
 | [Sermaye Harcaması](terms/tr/s/capex.md) | Capital Expenditures (CapEx) | `feasibility-analysis` |
 | [Sistem Sınır Çizgisi / Bağlam Diyagramı](terms/tr/s/system-boundary-context-diagram.md) | System Boundary / Context Diagram | `scope-definition` |
 
@@ -136,9 +152,16 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Yapılacak İşler Çerçevesi](terms/tr/y/jobs-to-be-done.md) | Jobs to be Done (JTBD) | `problem-definition` |
 | [Yasal ve Hukuki Uygunluk](terms/tr/y/legal-compliance-feasibility.md) | Legal / Compliance Feasibility | `feasibility-analysis` |
 | [Yatırım Getirisi](terms/tr/y/roi.md) | Return on Investment (ROI) | `feasibility-analysis` |
 | [Yazılım Gereksinim Şartnamesi](terms/tr/y/software-requirements-specification.md) | Software Requirements Specification (SRS) | `scope-definition` |
+
+### 5
+
+| Terim (TR) | İngilizce Karşılık | Alan (Domain) |
+| :--- | :--- | :--- |
+| [5 Neden Analizi](terms/tr/other/five-whys-technique.md) | 5 Whys Technique | `problem-definition` |
 
 ---
 
