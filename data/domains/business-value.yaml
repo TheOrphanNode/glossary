@@ -1,0 +1,164 @@
+# Domain: Expected Business Value & Outcomes
+domain: business-value
+title_tr: Beklenen İş Değeri
+description_tr: Yazılım projelerinin şirkete, müşteriye ve operasyonlara sağlayacağı finansal, operasyonel, stratejik ve nitel kazanım kavramları.
+
+terms:
+  # 1. Temel İş Değeri ve Stratejik Terimler
+  - id: business-value
+    term_en: Business Value
+    term_tr: İş Değeri
+    category: strategic-business-value
+    definition: Bir yazılım geliştirmesinin şirketin ticari başarısına, verimliliğine, rekabet gücüne veya gelirlerine sağladığı toplam ölçülebilir katkıdır.
+    tags: [strategy, value, metrics]
+
+  - id: value-proposition
+    term_en: Value Proposition
+    term_tr: Değer Önerisi
+    category: strategic-business-value
+    definition: Geliştirilen ürün veya özelliğin kullanıcının hangi problemini çözdüğünü ve neden alternatiflerden daha üstün bir fayda sunduğunu açıklayan net ifadedir.
+    tags: [product, strategy, customer]
+
+  - id: strategic-alignment
+    term_en: Strategic Alignment
+    term_tr: Stratejik Uyum
+    category: strategic-business-value
+    definition: Yapılan yazılım yatırımının şirketin genel yıllık hedefleri, vizyonu ve pazar büyüme stratejisiyle ne kadar örtüştüğüdür.
+    tags: [governance, strategy, alignment]
+
+  - id: cost-of-inaction
+    term_en: Cost of Inaction (COI)
+    term_tr: Eylemsizlik Maliyeti
+    category: strategic-business-value
+    definition: Geliştirmeyi yapmamanın ve sistemi mevcut haliyle bırakmanın şirkete yaratacağı operasyonel zarar, kaçırılan fırsatlar veya pazar payı kaybıdır.
+    tags: [risk, financial, opportunity-cost]
+
+  - id: quantifiable-vs-unquantifiable-value
+    term_en: Quantifiable vs. Unquantifiable Value
+    term_tr: Ölçülebilir ve Ölçülemeyen Değer
+    category: strategic-business-value
+    definition: Doğrudan paraya veya zamana dökülebilen somut kazanımlar ile dolaylı nitel kazanımların (marka itibarı, çalışan memnuniyeti vb.) ayrımıdır.
+    tags: [metrics, evaluation, analysis]
+
+  # 2. Finansal Getiri ve Maliyet Avantajı
+  - id: revenue-generation-uplift
+    term_en: Revenue Generation / Uplift
+    term_tr: Gelir Yaratma ve Artırma
+    category: financial-returns
+    definition: Sistemin yeni müşteriler çekerek, yeni bir abonelik modeli açarak veya sepet tutarını büyüterek doğrudan şirkete sağladığı ek gelirdir.
+    tags: [finance, revenue, growth]
+
+  - id: cost-reduction
+    term_en: Cost Reduction
+    term_tr: Maliyet Azaltma
+    category: financial-returns
+    definition: Mevcut sunucu, lisans, üçüncü parti servis ücretleri veya operasyonel harcamaların yazılım optimizasyonuyla kalıcı olarak düşürülmesidir.
+    tags: [finance, optimization, cost]
+
+  - id: cost-avoidance
+    term_en: Cost Avoidance
+    term_tr: Maliyetten Kaçınma
+    category: financial-returns
+    definition: Gelecekte yapılması zorunlu hale gelecek büyük bir harcamanın (ek sunucu alımı, personel artırımı, ceza ödemesi vb.) bugünden yapılan yazılımla engellenmesidir.
+    tags: [finance, risk-mitigation, planning]
+
+  - id: customer-lifetime-value
+    term_en: Customer Lifetime Value (LTV / CLV)
+    term_tr: Müşteri Yaşam Boyu Değeri
+    category: financial-returns
+    definition: Geliştirilen yeni özellikler sayesinde müşterinin sistemde daha uzun süre kalarak şirkete toplamda bıraktığı cironun artmasıdır.
+    tags: [metrics, ltv, revenue]
+
+  - id: cac-reduction
+    term_en: CAC Reduction (Customer Acquisition Cost)
+    term_tr: Müşteri Edinme Maliyetinin Düşürülmesi
+    category: financial-returns
+    definition: Daha iyi bir kayıt ve onboarding akışı sayesinde bir müşteriyi sisteme kazandırmak için harcanan pazarlama ve satış maliyetinin azalmasıdır.
+    tags: [cac, marketing, onboarding]
+
+  # 3. Operasyonel Verimlilik ve Süreç Kazanımı
+  - id: operational-efficiency
+    term_en: Operational Efficiency
+    term_tr: Operasyonel Verimlilik
+    category: operational-efficiency
+    definition: Aynı işin daha az insan gücü, daha az sunucu kaynağı veya daha düşük bütçeyle tamamlanabilmesi kabiliyetidir.
+    tags: [operations, efficiency, productivity]
+
+  - id: fte-savings
+    term_en: FTE Savings (Full-Time Equivalent)
+    term_tr: Tam Zamanlı Çalışan Tasarrufu
+    category: operational-efficiency
+    definition: Otomasyon sayesinde haftalık/aylık manuel iş yükünün kaç personelin çalışma saatine denk gelecek şekilde azaldığını gösteren metriktir.
+    tags: [automation, metrics, labor]
+
+  - id: cycle-time-reduction
+    term_en: Cycle Time Reduction
+    term_tr: Döngü Süresinin Kısaltılması
+    category: operational-efficiency
+    definition: Bir iş akışının başından sonuna kadar geçen toplam işlem süresinin hızlandırılmasıdır.
+    tags: [process, performance, speed]
+
+  - id: error-rate-reduction
+    term_en: Error Rate Reduction
+    term_tr: Hata Oranının Düşürülmesi
+    category: operational-efficiency
+    definition: İnsan kaynaklı manuel veri girişi veya yazılımsal bug'lar nedeniyle ortaya çıkan hatalı işlem oranının düşürülmesidir.
+    tags: [qa, data-integrity, quality]
+
+  - id: time-to-market
+    term_en: Time-to-Market (TTM)
+    term_tr: Pazara Çıkış Hızı
+    category: operational-efficiency
+    definition: Kurulan yeni mimari ve altyapı sayesinde gelecekteki yeni özelliklerin müşteriye eskisinden çok daha hızlı sunulabilmesi avantajıdır.
+    tags: [agile, delivery, architecture]
+
+  # 4. Müşteri, Pazar ve Kullanıcı Odaklı Değer
+  - id: customer-retention-churn-reduction
+    term_en: Customer Retention & Churn Reduction
+    term_tr: Müşteri Tutma ve Kayıp Azaltma
+    category: customer-market-value
+    definition: Sistemin daha kararlı ve kullanışlı hale gelmesiyle kullanıcıların ürünü terk etme oranının düşmesidir.
+    tags: [retention, churn, product]
+
+  - id: net-promoter-score-impact
+    term_en: Net Promoter Score (NPS) Impact
+    term_tr: Müşteri Tavsiye Skoru Etkisi
+    category: customer-market-value
+    definition: Kullanıcı memnuniyetinin ve sistem sadakatinin artmasıyla müşterilerin ürünü başkalarına tavsiye etme eğiliminin yükselmesidir.
+    tags: [nps, satisfaction, feedback]
+
+  - id: user-adoption-engagement
+    term_en: User Adoption & Engagement
+    term_tr: Kullanıcı Benimsemesi ve Etkileşimi
+    category: customer-market-value
+    definition: Kullanıcıların yeni özelliği aktif olarak kullanma sıklığı, ekranda geçirdiği süre ve işlevleri sahiplenme düzeyidir.
+    tags: [engagement, adoption, analytics]
+
+  - id: competitive-advantage
+    term_en: Competitive Advantage / Edge
+    term_tr: Rekabet Avantajı
+    category: customer-market-value
+    definition: Rakiplerde olmayan bir özelliğin, işlem hızının veya entegrasyon kabiliyetinin şirkete sağladığı pazar üstünlüğüdür.
+    tags: [strategy, market, differentiation]
+
+  # 5. Risk ve Uyumluluk Kaynaklı Değer
+  - id: compliance-penalty-avoidance
+    term_en: Compliance & Penalty Avoidance
+    term_tr: Yasal Uyum ve Ceza Önleme
+    category: risk-compliance-value
+    definition: KVKK, GDPR, BDDK veya PCI-DSS regülasyonlarına uyum sağlayarak şirketi ağır para cezalarından ve lisans iptallerinden koruma değeridir.
+    tags: [compliance, legal, security]
+
+  - id: risk-mitigation-value
+    term_en: Risk Mitigation Value
+    term_tr: Risk Azaltma Değeri
+    category: risk-compliance-value
+    definition: Sistem kesintileri, güvenlik açıkları veya veri kaybı risklerini minimize ederek şirketi maddi ve itibar kayıplarından koruma kazanımıdır.
+    tags: [risk, security, business-continuity]
+
+  - id: brand-equity-trust
+    term_en: Brand Equity & Trust
+    term_tr: Marka Değeri ve Güvenilirlik
+    category: risk-compliance-value
+    definition: Kesintisiz çalışan, hızlı ve güvenli bir sistemin şirket imajına ve kullanıcı güvenine kattığı kurumsal prestijdir.
+    tags: [branding, trust, reputation]

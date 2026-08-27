@@ -30,7 +30,9 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Değer Önerisi](terms/tr/d/value-proposition.md) | Value Proposition | `business-value` |
 | [Değişiklik Kontrol Kurulu ve Değişiklik Talebi](terms/tr/d/change-control-board-change-request.md) | Change Control Board (CCB) & Change Request (CR) | `scope-definition` |
+| [Döngü Süresinin Kısaltılması](terms/tr/d/cycle-time-reduction.md) | Cycle Time Reduction | `business-value` |
 
 ### E
 
@@ -38,6 +40,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | :--- | :--- | :--- |
 | [Ekonomik / Finansal Fizibilite](terms/tr/e/economic-feasibility.md) | Economic Feasibility | `feasibility-analysis` |
 | [Epic / Feature / User Story Ayrıştırması](terms/tr/e/epic-feature-user-story-decomposition.md) | Epic / Feature / User Story Decomposition | `scope-definition` |
+| [Eylemsizlik Maliyeti](terms/tr/e/cost-of-inaction.md) | Cost of Inaction (COI) | `business-value` |
 
 ### F
 
@@ -53,6 +56,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Gecikme Maliyeti](terms/tr/g/cost-of-delay.md) | Cost of Delay (CoD) | `feasibility-analysis` |
+| [Gelir Yaratma ve Artırma](terms/tr/g/revenue-generation-uplift.md) | Revenue Generation / Uplift | `business-value` |
 | [Gereksinim İzlenebilirlik Matrisi](terms/tr/g/requirements-traceability-matrix.md) | Requirements Traceability Matrix (RTM) | `scope-definition` |
 | [Geri Ödeme Süresi](terms/tr/g/payback-period.md) | Payback Period | `feasibility-analysis` |
 
@@ -60,6 +64,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Hata Oranının Düşürülmesi](terms/tr/h/error-rate-reduction.md) | Error Rate Reduction | `business-value` |
 | [Hedeflenen Durum Analizi](terms/tr/h/to-be-analysis.md) | To-Be Analysis | `problem-definition` |
 | [Hizmet Seviyesi Taahhüdü](terms/tr/h/sla.md) | Service Level Agreement (SLA) | `feasibility-analysis` |
 
@@ -67,6 +72,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [İş Değeri](terms/tr/i/business-value.md) | Business Value | `business-value` |
 | [İş Gereksinimleri Dokümanı](terms/tr/i/business-requirements-document.md) | Business Requirements Document (BRD) | `scope-definition` |
 | [İş Kırılım Yapısı](terms/tr/i/work-breakdown-structure.md) | Work Breakdown Structure (WBS) | `scope-definition` |
 | [İş Kırılım Yapısı Sözlüğü](terms/tr/i/wbs-dictionary.md) | WBS Dictionary | `scope-definition` |
@@ -86,13 +92,21 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Kapsam Taban Çizgisi](terms/tr/k/scope-baseline.md) | Scope Baseline | `scope-definition` |
 | [Kavram Kanıtı](terms/tr/k/poc.md) | Proof of Concept (PoC) | `feasibility-analysis` |
 | [Kök Neden Analizi](terms/tr/k/root-cause-analysis.md) | Root Cause Analysis (RCA) | `problem-definition` |
+| [Kullanıcı Benimsemesi ve Etkileşimi](terms/tr/k/user-adoption-engagement.md) | User Adoption & Engagement | `business-value` |
 | [Kurumsal Hazırlık](terms/tr/k/organizational-readiness.md) | Organizational Readiness | `feasibility-analysis` |
 
 ### M
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Maliyetten Kaçınma](terms/tr/m/cost-avoidance.md) | Cost Avoidance | `business-value` |
+| [Maliyet Azaltma](terms/tr/m/cost-reduction.md) | Cost Reduction | `business-value` |
+| [Marka Değeri ve Güvenilirlik](terms/tr/m/brand-equity-trust.md) | Brand Equity & Trust | `business-value` |
 | [Mevcut Durum Analizi](terms/tr/m/as-is-analysis.md) | As-Is Analysis | `problem-definition` |
+| [Müşteri Edinme Maliyetinin Düşürülmesi](terms/tr/m/cac-reduction.md) | CAC Reduction (Customer Acquisition Cost) | `business-value` |
+| [Müşteri Tavsiye Skoru Etkisi](terms/tr/m/net-promoter-score-impact.md) | Net Promoter Score (NPS) Impact | `business-value` |
+| [Müşteri Tutma ve Kayıp Azaltma](terms/tr/m/customer-retention-churn-reduction.md) | Customer Retention & Churn Reduction | `business-value` |
+| [Müşteri Yaşam Boyu Değeri](terms/tr/m/customer-lifetime-value.md) | Customer Lifetime Value (LTV / CLV) | `business-value` |
 
 ### N
 
@@ -106,17 +120,20 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Operasyonel Fizibilite](terms/tr/o/operational-feasibility.md) | Operational Feasibility | `feasibility-analysis` |
+| [Operasyonel Verimlilik](terms/tr/o/operational-efficiency.md) | Operational Efficiency | `business-value` |
 
 ### Ö
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Ölçeklenebilirlik ve Kapasite Planlama](terms/tr/o/scalability-capacity-planning.md) | Scalability & Capacity Planning | `feasibility-analysis` |
+| [Ölçülebilir ve Ölçülemeyen Değer](terms/tr/o/quantifiable-vs-unquantifiable-value.md) | Quantifiable vs. Unquantifiable Value | `business-value` |
 
 ### P
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Pazara Çıkış Hızı](terms/tr/p/time-to-market.md) | Time-to-Market (TTM) | `business-value` |
 | [Problem Çerçeveleme](terms/tr/p/problem-framing.md) | Problem Framing | `problem-definition` |
 | [Problem İfadesi](terms/tr/p/problem-statement.md) | Problem Statement | `problem-definition` |
 | [Proje Kapsam Beyanı](terms/tr/p/project-scope-statement.md) | Project Scope Statement | `scope-definition` |
@@ -127,6 +144,8 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Regülatif Uyum](terms/tr/r/regulatory-compliance.md) | Regulatory Compliance | `feasibility-analysis` |
+| [Rekabet Avantajı](terms/tr/r/competitive-advantage.md) | Competitive Advantage / Edge | `business-value` |
+| [Risk Azaltma Değeri](terms/tr/r/risk-mitigation-value.md) | Risk Mitigation Value | `business-value` |
 
 ### S
 
@@ -135,6 +154,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Semptom ve Kök Neden Ayrımı](terms/tr/s/symptom-vs-root-cause.md) | Symptom vs. Root Cause | `problem-definition` |
 | [Sermaye Harcaması](terms/tr/s/capex.md) | Capital Expenditures (CapEx) | `feasibility-analysis` |
 | [Sistem Sınır Çizgisi / Bağlam Diyagramı](terms/tr/s/system-boundary-context-diagram.md) | System Boundary / Context Diagram | `scope-definition` |
+| [Stratejik Uyum](terms/tr/s/strategic-alignment.md) | Strategic Alignment | `business-value` |
 
 ### T
 
@@ -142,6 +162,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | :--- | :--- | :--- |
 | [Takvim / Zaman Fizibilitesi](terms/tr/t/schedule-feasibility.md) | Schedule Feasibility | `feasibility-analysis` |
 | [Tamamlanma Tanımı ve Kabul Kriterleri](terms/tr/t/definition-of-done-acceptance-criteria.md) | Definition of Done (DoD) & Acceptance Criteria | `scope-definition` |
+| [Tam Zamanlı Çalışan Tasarrufu](terms/tr/t/fte-savings.md) | FTE Savings (Full-Time Equivalent) | `business-value` |
 | [Tedarikçiye Bağımlılık](terms/tr/t/vendor-lock-in.md) | Vendor Lock-in | `feasibility-analysis` |
 | [Teknik Araştırma Görevi (Spike)](terms/tr/t/technical-spike.md) | Technical Spike | `feasibility-analysis` |
 | [Teknik Borç Analizi](terms/tr/t/technical-debt-assessment.md) | Technical Debt Assessment | `feasibility-analysis` |
@@ -153,6 +174,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Yapılacak İşler Çerçevesi](terms/tr/y/jobs-to-be-done.md) | Jobs to be Done (JTBD) | `problem-definition` |
+| [Yasal Uyum ve Ceza Önleme](terms/tr/y/compliance-penalty-avoidance.md) | Compliance & Penalty Avoidance | `business-value` |
 | [Yasal ve Hukuki Uygunluk](terms/tr/y/legal-compliance-feasibility.md) | Legal / Compliance Feasibility | `feasibility-analysis` |
 | [Yatırım Getirisi](terms/tr/y/roi.md) | Return on Investment (ROI) | `feasibility-analysis` |
 | [Yazılım Gereksinim Şartnamesi](terms/tr/y/software-requirements-specification.md) | Software Requirements Specification (SRS) | `scope-definition` |
