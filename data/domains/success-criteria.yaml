@@ -1,0 +1,186 @@
+# Domain: Success Criteria & Performance Metrics
+domain: success-criteria
+title_tr: Başarı Kriterleri ve Metrikler
+description_tr: Projenin başarısını somut verilere bağlamak için kullanılan hedefleme, metrik ve performans kavramları.
+
+terms:
+  # 1. Temel Hedef Belirleme ve Çerçeve Terimleri
+  - id: kpi
+    term_en: Key Performance Indicator (KPI)
+    term_tr: Temel Performans Göstergesi
+    category: target-setting-frameworks
+    definition: "Projenin veya iş sürecinin hedeflenen başarı düzeyine ulaşıp ulaşmadığını periyodik olarak ölçen somut ve sayısal göstergedir."
+    tags: [metrics, performance, goal-setting]
+
+  - id: okr
+    term_en: Objectives and Key Results (OKR)
+    term_tr: Hedefler ve Temel Sonuçlar
+    category: target-setting-frameworks
+    definition: "Ulaşılmak istenen ilham verici ana hedef ile bu hedefe ulaşıldığını kanıtlayan ölçülebilir sayısal sonuçları birleştiren yönetim modelidir."
+    tags: [framework, strategy, alignment]
+
+  - id: csf
+    term_en: Critical Success Factor (CSF)
+    term_tr: Kritik Başarı Faktörü
+    category: target-setting-frameworks
+    definition: "Projenin başarısızlığa uğramaması için mutlaka gerçekleşmesi gereken kilit şartlar veya ön koşullar bütünüdür."
+    tags: [strategy, risk, prerequisites]
+
+  - id: smart-criteria
+    term_en: SMART Criteria
+    term_tr: SMART Hedef Standardı
+    category: target-setting-frameworks
+    definition: "Başarı hedeflerinin net olması için taşıması gereken beş temel özelliktir: Belirli (Specific), Ölçülebilir (Measurable), Ulaşılabilir (Achievable), İlgili (Relevant) ve Zaman Bağlantılı (Time-bound)."
+    tags: [standard, goal-setting, planning]
+
+  - id: north-star-metric
+    term_en: North Star Metric (NSM)
+    term_tr: Kuzey Yıldızı Metriği
+    category: target-setting-frameworks
+    definition: "Ürünün müşteriye sağladığı temel değeri ve şirketin uzun vadeli büyümesini tek başına en iyi özetleyen ana çekirdek metriktir."
+    tags: [product-growth, metric, vision]
+
+  # 2. Ürün ve İş Başarısı Metrikleri
+  - id: conversion-rate
+    term_en: Conversion Rate (CR)
+    term_tr: Dönüşüm Oranı
+    category: product-business-metrics
+    definition: "Belirli bir ekrana veya akışa giren kullanıcıların hedeflenen eylemi başarıyla tamamlama yüzdesidir."
+    formula: "(Hedeflenen Eylemi Tamamlayan Tekil Kullanıcı / Toplam Tekil Ziyaretçi) * 100"
+    tags: [conversion, analytics, product]
+
+  - id: adoption-rate
+    term_en: Adoption Rate
+    term_tr: Benimsenme / Kullanım Oranı
+    category: product-business-metrics
+    definition: "Yeni geliştirilen bir özelliğin veya modülün toplam aktif kullanıcı tabanı içinde ne sıklıkla ve hangi oranda kullanılmaya başlandığıdır."
+    tags: [adoption, product-analytics, engagement]
+
+  - id: retention-rate
+    term_en: Retention Rate
+    term_tr: Kullanıcı Tutma Oranı
+    category: product-business-metrics
+    definition: "Sistemi kullanmaya başlayan kullanıcıların belirli zaman aralıklarında (1. gün, 7. gün, 30. gün) uygulamaya geri dönme oranıdır."
+    tags: [retention, growth, user-lifecycle]
+
+  - id: churn-rate
+    term_en: Churn Rate
+    term_tr: Kayıp / Terk Oranı
+    category: product-business-metrics
+    definition: "Belirli bir zaman diliminde sistemi kullanmayı bırakan veya aboneliğini iptal eden kullanıcıların yüzdesidir."
+    tags: [churn, retention, metrics]
+
+  - id: active-users-dau-wau-mau
+    term_en: Active Users (DAU / WAU / MAU)
+    term_tr: Aktif Kullanıcı Hacmi
+    category: product-business-metrics
+    definition: "Sistemin günlük (DAU), haftalık (WAU) veya aylık (MAU) periyotlardaki tekil aktif kullanıcı hacmi hedefleridir."
+    tags: [analytics, volume, engagement]
+
+  - id: csat-ces
+    term_en: CSAT & CES (Customer Satisfaction & Effort Score)
+    term_tr: Müşteri Memnuniyeti ve Efor Skoru
+    category: product-business-metrics
+    definition: "Kullanıcının özellikten ne kadar memnun kaldığını (CSAT) ve işlemi tamamlarken ne kadar az efor sarf ettiğini (CES) ölçen geri bildirim puanlarıdır."
+    tags: [feedback, csat, user-satisfaction]
+
+  # 3. Teknik ve Sistem Başarısı Metrikleri
+  - id: system-availability-uptime
+    term_en: System Availability / Uptime
+    term_tr: Sistem Erişilebilirliği
+    category: technical-sla-metrics
+    definition: "Sistemin kesintisiz çalışması gereken süre taahhüdüdür (örn. %99.9 veya %99.99 Uptime hedefi)."
+    tags: [infrastructure, reliability, uptime]
+
+  - id: sli-slo-sla
+    term_en: SLI / SLO / SLA
+    term_tr: Hizmet Seviyesi Göstergeleri ve Hedefleri
+    category: technical-sla-metrics
+    definition: "Sistemin gerçek anlık performans göstergesi (SLI), ekibin iç performans hedefi (SLO) ve müşteriye taahhüt edilen yasal sözleşmenin (SLA) bütünüdür."
+    tags: [sre, reliability, governance]
+
+  - id: latency-response-time
+    term_en: Latency / Response Time (p95 / p99)
+    term_tr: Yanıt Süresi Hedefleri
+    category: technical-sla-metrics
+    definition: "API uç noktalarının kullanıcı isteklerine kaç milisaniye altında yanıt vermesi gerektiğini belirten performans eşikleridir."
+    tags: [performance, latency, api]
+
+  - id: throughput-rps-tps
+    term_en: Throughput (RPS / TPS)
+    term_tr: İşlem Hacmi Kapasitesi
+    category: technical-sla-metrics
+    definition: "Sistemin performans kaybı yaşamadan saniyede işleyebilmesi gereken istek (RPS) veya başarılı işlem (TPS) kapasitesidir."
+    tags: [performance, throughput, scalability]
+
+  - id: mttr-mtbf
+    term_en: MTTR & MTBF
+    term_tr: Ortalama Kurtarma ve Arıza Arası Süre
+    category: technical-sla-metrics
+    definition: "Bir kesinti durumunda sistemin ayağa kalkma süresi (MTTR) ile iki arıza arasında geçen ortalama çalışma süresidir (MTBF)."
+    tags: [devops, reliability, incident-management]
+
+  - id: error-budget
+    term_en: Error Budget
+    term_tr: Hata Bütçesi
+    category: technical-sla-metrics
+    definition: "SLO hedeflerinden ödün vermeden sistemin tolere edebileceği maksimum kesinti ve hata payıdır."
+    tags: [sre, risk, deployment]
+
+  # 4. Teslimat, Süreç ve Kalite Başarı Metrikleri
+  - id: defect-escape-rate
+    term_en: Defect Escape Rate
+    term_tr: Canlıya Sızan Hata Oranı
+    category: engineering-quality-metrics
+    definition: "Test aşamasında yakalanamayıp canlı ortama ve son kullanıcıya ulaşan kritik bug yüzdesidir."
+    tags: [qa, testing, code-quality]
+
+  - id: test-automation-coverage
+    term_en: Test Automation Coverage
+    term_tr: Test Kapsama Oranı
+    category: engineering-quality-metrics
+    definition: "Birim, entegrasyon ve uçtan uca testlerin toplam kod tabanını karşılama oranıdır."
+    tags: [testing, automation, quality]
+
+  - id: lead-time-for-changes
+    term_en: Lead Time for Changes
+    term_tr: Değişiklik Teslim Süresi
+    category: engineering-quality-metrics
+    definition: "Bir kod değişikliğinin commit aşamasından testleri geçip canlıya alınmasına kadar geçen toplam süredir (DORA metriği)."
+    tags: [dora, devops, delivery-speed]
+
+  - id: on-time-on-budget-delivery
+    term_en: On-Time & On-Budget Delivery
+    term_tr: Zamanında ve Bütçe Dahilinde Teslimat
+    category: engineering-quality-metrics
+    definition: "Geliştirmenin planlanan takvime, kilometre taşlarına ve bütçe sınırlarına sadık kalma oranıdır."
+    tags: [project-management, timeline, budget]
+
+  # 5. Ölçümleme ve Değerlendirme Kavramları
+  - id: baseline
+    term_en: Baseline
+    term_tr: Taban Çizgisi / Başlangıç Değeri
+    category: measurement-evaluation-concepts
+    definition: "Yeni geliştirme yapılmadan önce sistemin mevcut durumdaki ölçüm değeridir."
+    tags: [measurement, benchmark, baseline]
+
+  - id: target-value
+    term_en: Target Value
+    term_tr: Hedef Değer
+    category: measurement-evaluation-concepts
+    definition: "Proje tamamlandığında ulaşılması planlanan sayısal başarı hedefidir."
+    tags: [goals, measurement, target]
+
+  - id: leading-vs-lagging-indicators
+    term_en: Leading vs. Lagging Indicators
+    term_tr: Öncü ve Artçı Göstergeler
+    category: measurement-evaluation-concepts
+    definition: "Gelecekteki başarıyı erkenden haber veren süreç metrikleri (Öncü) ile süreç sonunda ortaya çıkan nihai çıktıların (Artçı) ayrımıdır."
+    tags: [analytics, forecasting, strategy]
+
+  - id: threshold-tolerance-limit
+    term_en: Threshold / Tolerance Limit
+    term_tr: Tolerans / Eşik Değeri
+    category: measurement-evaluation-concepts
+    definition: "Kabul edilebilir minimum ve maksimum sapma aralığı; hedefin alt sınır limitidir."
+    tags: [governance, risk, limits]
