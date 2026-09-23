@@ -1,0 +1,192 @@
+# Domain: Architecture & Technology Options
+domain: architecture-technology
+title_tr: Mimari ve Teknoloji Seçenekleri
+description_tr: İhtiyacı karşılayabilecek farklı mimari yaklaşımlar, teknoloji alternatifleri, veri modelleri ve entegrasyon protokolleri.
+
+terms:
+  # 1. Mimari Desenler ve Yapısal Modeller
+  - id: monolithic-architecture
+    term_en: Monolithic Architecture
+    term_tr: Monolitik Mimari
+    category: architectural-patterns
+    definition: "Tüm işlevlerin, kullanıcı arayüzünün, iş mantığının ve veri tabanı erişiminin tek bir kod tabanı ve tek bir dağıtım paketi içinde çalıştığı geleneksel mimari modeldir."
+    tags: [architecture, monolith, deployment]
+
+  - id: modular-monolith
+    term_en: Modular Monolith
+    term_tr: Modüler Monolit
+    category: architectural-patterns
+    definition: "Tek bir uygulama içinde katı sınırlar ve modüler paketler halinde ayrıştırılmış, bağımsız geliştirilebilen ancak tek parça halinde canlıya alınan dengeli monolit yapısıdır."
+    tags: [architecture, modularity, clean-code]
+
+  - id: microservices-architecture
+    term_en: Microservices Architecture
+    term_tr: Mikroservis Mimarisi
+    category: architectural-patterns
+    definition: "Uygulamanın bağımsız olarak geliştirilebilen, ölçeklenebilen, dağıtılabilen ve kendi veritabanına sahip küçük servisler bütünü olarak kurgulandığı dağıtık mimaridir."
+    tags: [architecture, microservices, distributed-systems]
+
+  - id: serverless-faas
+    term_en: Serverless / FaaS
+    term_tr: Sunucusuz Mimari
+    category: architectural-patterns
+    definition: "Sunucu yönetimi ve altyapı ölçeklemesinin tamamen bulut sağlayıcıya bırakıldığı, sadece olay tetiklendiğinde çalışan fonksiyon tabanlı modeldir."
+    tags: [cloud, serverless, faas]
+
+  - id: event-driven-architecture
+    term_en: Event-Driven Architecture (EDA)
+    term_tr: Olay Güdümlü Mimari
+    category: architectural-patterns
+    definition: "Servislerin birbirini doğrudan çağırmak yerine, oluşan olayları bir mesaj kuyruğuna fırlattığı ve asenkron olarak haberleştiği mimaridir."
+    tags: [eda, asynchronous, messaging]
+
+  - id: clean-onion-hexagonal-architecture
+    term_en: Clean / Onion / Hexagonal Architecture
+    term_tr: Katmanlı ve Bağımsız Mimari
+    category: architectural-patterns
+    definition: "Çekirdek iş mantığını veri tabanı, framework ve kullanıcı arayüzü gibi dış bağımlılıklardan tamamen izole eden mimari yaklaşımlardır."
+    tags: [clean-architecture, domain-driven-design, architecture]
+
+  - id: cqrs
+    term_en: CQRS (Command Query Responsibility Segregation)
+    term_tr: CQRS
+    category: architectural-patterns
+    definition: "Veri yazma (Command) işlemleri ile veri okuma (Query) modellerini birbirinden ayıran ileri seviye mimari desendir."
+    tags: [cqrs, design-patterns, data-modeling]
+
+  # 2. Teknoloji Yığını ve Çerçeve Terimleri
+  - id: tech-stack
+    term_en: Tech Stack
+    term_tr: Teknoloji Yığını
+    category: tech-stack-ecosystem
+    definition: "Bir uygulamanın çalışması için kullanılan programlama dilleri, framework'ler, veritabanları, sunucular ve araçların oluşturduğu bütünleşik teknoloji kümesidir."
+    tags: [technology, stack, tools]
+
+  - id: polyglot-architecture
+    term_en: Polyglot Architecture
+    term_tr: Çoklu Dil / Teknoloji Yaklaşımı
+    category: tech-stack-ecosystem
+    definition: "Sistem içindeki farklı servislerin ihtiyaçlarına en uygun farklı diller ve veritabanlarıyla yazılması yaklaşımıdır."
+    tags: [microservices, engineering, architecture]
+
+  - id: relational-vs-nosql-databases
+    term_en: Relational (SQL) vs. NoSQL Databases
+    term_tr: İlişkisel ve NoSQL Veritabanı Seçimi
+    category: tech-stack-ecosystem
+    definition: "Yapılandırılmış ve ACID garantili ilişkisel veritabanları ile esnek, yatayda kolay ölçeklenen doküman/anahtar-değer tabanlı sistemlerin seçimidir."
+    tags: [databases, sql, nosql, data-storage]
+
+  - id: message-broker-event-streaming
+    term_en: Message Broker / Event Streaming
+    term_tr: Mesaj Kuyruğu ve Olay Akışı
+    category: tech-stack-ecosystem
+    definition: "Servisler arasında asenkron veri akışını ve kuyruk yönetimini sağlayan ara katman sistemleridir."
+    tags: [kafka, rabbitmq, messaging, infrastructure]
+
+  - id: orm-data-mapper
+    term_en: ORM / Data Mapper
+    term_tr: Nesne-İlişkisel Eşleme
+    category: tech-stack-ecosystem
+    definition: "Veritabanı tablolarını kod tarafındaki nesnelere bağlayan ve veri erişimini soyutlayan kütüphanelerdir."
+    tags: [database, orm, persistence]
+
+  # 3. İletişim, Entegrasyon ve API Protokolleri
+  - id: restful-api
+    term_en: RESTful API
+    term_tr: RESTful API
+    category: communication-protocols
+    definition: "HTTP metodları ve JSON formatı üzerinden çalışan, durumsuz ve endüstri standardı iletişim modelidir."
+    tags: [api, rest, http, web-services]
+
+  - id: grpc-protocol-buffers
+    term_en: gRPC / Protocol Buffers
+    term_tr: gRPC ve Protocol Buffers
+    category: communication-protocols
+    definition: "Yüksek performanslı mikroservis iletişimi için binary formatta serileştirme kullanan, düşük gecikmeli ve tipli RPC protokolüdür."
+    tags: [grpc, protobuf, rpc, performance]
+
+  - id: graphql
+    term_en: GraphQL
+    term_tr: GraphQL
+    category: communication-protocols
+    definition: "İstemcinin sunucudan sadece ihtiyaç duyduğu alanları tek bir endpoint üzerinden sorgulayabilmesine olanak tanıyan esnek veri sorgulama dilidir."
+    tags: [api, graphql, query-language]
+
+  - id: websocket-webhook
+    term_en: WebSocket / Webhook
+    term_tr: WebSocket ve Webhook
+    category: communication-protocols
+    definition: "İstemci ile sunucu arasında çift yönlü anlık veri aktarımı sağlayan bağlantılar ile olay bazlı HTTP geri bildirim mekanizmalarıdır."
+    tags: [real-time, integration, protocols]
+
+  - id: api-gateway
+    term_en: API Gateway
+    term_tr: API Ağ Geçidi
+    category: communication-protocols
+    definition: "Dış dünyadan gelen istekleri karşılayan, yönlendiren, kimlik doğrulama, hız sınırlama ve SSL sonlandırma işlemlerini üstlenen tek giriş kapısıdır."
+    tags: [gateway, routing, security, microservices]
+
+  - id: service-mesh
+    term_en: Service Mesh
+    term_tr: Servis Ağı
+    category: communication-protocols
+    definition: "Mikroservisler arasındaki servis keşfi, yük dengeleme, şifreleme ve gözlemlenebilirlik trafiğini yöneten altyapı katmanıdır."
+    tags: [service-mesh, networking, mtls, kubernetes]
+
+  # 4. Mimari Karar, İlkeler ve Ödünleşim
+  - id: architectural-decision-record
+    term_en: Architectural Decision Record (ADR)
+    term_tr: Mimari Karar Kaydı
+    category: architecture-decisions-tradeoffs
+    definition: "Neden belirli bir teknolojinin veya mimarinin seçildiğini, hangi alternatiflerin elendiğini ve alınan kararın getirdiği sonuçları belgeleyen teknik karar dokümanıdır."
+    tags: [documentation, adr, architecture, governance]
+
+  - id: trade-off-analysis
+    term_en: Trade-off Analysis
+    term_tr: Ödünleşim Analizi
+    category: architecture-decisions-tradeoffs
+    definition: "Hiçbir mimarinin kusursuz olmadığı gerçeğiyle; hız, maliyet, karmaşıklık, güvenlik ve ölçeklenebilirlik arasındaki kazanım ve kayıpların dengelenmesidir."
+    tags: [architecture, analysis, decision-making]
+
+  - id: coupling-and-cohesion
+    term_en: Coupling & Cohesion
+    term_tr: Bağlılık ve Birliktelik
+    category: architecture-decisions-tradeoffs
+    definition: "Modüllerin birbirine ne kadar az bağımlı olduğu ve kendi içinde ne kadar odaklı tek bir işi yaptığı kalite ölçütüdür."
+    tags: [design-principles, clean-code, architecture]
+
+  - id: cap-theorem
+    term_en: CAP Theorem
+    term_tr: CAP Teoremi
+    category: architecture-decisions-tradeoffs
+    definition: "Dağıtık bir veri sisteminin aynı anda Tutarlılık (Consistency), Erişilebilirlik (Availability) ve Bölünme Toleransından (Partition Tolerance) en fazla ikisini garanti edebileceğini belirten kuraldır."
+    tags: [distributed-systems, theory, databases]
+
+  - id: conways-law
+    term_en: Conway's Law
+    term_tr: Conway Yasası
+    category: architecture-decisions-tradeoffs
+    definition: "Bir yazılım mimarisinin, onu geliştiren organizasyonun iletişim ve ekip yapısını birebir yansıtacağını ifade eden kuraldır."
+    tags: [culture, organization, management]
+
+  # 5. Ölçekleme ve Sistem Durumu Terimleri
+  - id: horizontal-vs-vertical-scaling
+    term_en: Horizontal vs. Vertical Scaling
+    term_tr: Yatay ve Dikey Ölçekleme
+    category: scalability-and-state
+    definition: "Mevcut sunucunun donanımını güçlendirmek ile sisteme yeni sunucular ekleyerek yükü dağıtmak arasındaki mimari ayrımıdır."
+    tags: [scalability, infrastructure, performance]
+
+  - id: stateless-vs-stateful
+    term_en: Stateless vs. Stateful
+    term_tr: Durumsuz ve Durumlu Yapı
+    category: scalability-and-state
+    definition: "Sunucunun gelen her isteği oturum geçmişinden bağımsız işlemesi veya oturum bilgisini kendi hafızasında tutması ayrımıdır."
+    tags: [architecture, session, scalability]
+
+  - id: multi-tenancy
+    term_en: Multi-Tenancy
+    term_tr: Çok Kiracılı Mimari
+    category: scalability-and-state
+    definition: "Tek bir yazılım örneğinin ve altyapısının, verileri birbirinden izole edilmiş birden fazla farklı müşteriye aynı anda hizmet vermesi modelidir."
+    tags: [saas, architecture, isolation]
