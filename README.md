@@ -4,7 +4,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 ## 🧭 Hızlı Erişim (Index)
 
-[A](#a) • [B](#b) • [C](#c) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [İ](#i̇) • [K](#k) • [M](#m) • [N](#n) • [O](#o) • [Ö](#ö) • [P](#p) • [R](#r) • [S](#s) • [T](#t) • [Y](#y) • [Z](#z) • [5](#5)
+[A](#a) • [B](#b) • [C](#c) • [Ç](#ç) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [İ](#i̇) • [K](#k) • [M](#m) • [N](#n) • [O](#o) • [Ö](#ö) • [P](#p) • [R](#r) • [S](#s) • [T](#t) • [Y](#y) • [Z](#z) • [5](#5) • [W](#w)
 
 ---
 
@@ -15,12 +15,14 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Acı Noktası / Darboğaz](terms/tr/a/pain-point.md) | Pain Point | `problem-definition` |
 | [Aktif Kullanıcı Hacmi](terms/tr/a/active-users-dau-wau-mau.md) | Active Users (DAU / WAU / MAU) | `success-criteria` |
 | [Altın Kaplama / Gereksiz İşçilik](terms/tr/a/gold-plating.md) | Gold Plating | `scope-definition` |
+| [API Ağ Geçidi](terms/tr/a/api-gateway.md) | API Gateway | `architecture-technology` |
 | [Ayrıştırma](terms/tr/a/decomposition.md) | Decomposition | `scope-definition` |
 
 ### B
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Bağlılık ve Birliktelik](terms/tr/b/coupling-and-cohesion.md) | Coupling & Cohesion | `architecture-technology` |
 | [Balık Kılçığı Diyagramı](terms/tr/b/fishbone-ishikawa-diagram.md) | Fishbone / Ishikawa Diagram | `problem-definition` |
 | [Başa Baş Noktası](terms/tr/b/break-even-point.md) | Break-Even Point (BEP) | `feasibility-analysis` |
 | [Başla / Başlama Kararı](terms/tr/b/go-no-go-decision.md) | Go / No-Go Decision | `feasibility-analysis` |
@@ -33,6 +35,16 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Canlıya Sızan Hata Oranı](terms/tr/c/defect-escape-rate.md) | Defect Escape Rate | `success-criteria` |
+| [CAP Teoremi](terms/tr/c/cap-theorem.md) | CAP Theorem | `architecture-technology` |
+| [Conway Yasası](terms/tr/c/conways-law.md) | Conway's Law | `architecture-technology` |
+| [CQRS](terms/tr/c/cqrs.md) | CQRS (Command Query Responsibility Segregation) | `architecture-technology` |
+
+### Ç
+
+| Terim (TR) | İngilizce Karşılık | Alan (Domain) |
+| :--- | :--- | :--- |
+| [Çoklu Dil / Teknoloji Yaklaşımı](terms/tr/c/polyglot-architecture.md) | Polyglot Architecture | `architecture-technology` |
+| [Çok Kiracılı Mimari](terms/tr/c/multi-tenancy.md) | Multi-Tenancy | `architecture-technology` |
 
 ### D
 
@@ -43,6 +55,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Değişiklik Teslim Süresi](terms/tr/d/lead-time-for-changes.md) | Lead Time for Changes | `success-criteria` |
 | [Döngü Süresinin Kısaltılması](terms/tr/d/cycle-time-reduction.md) | Cycle Time Reduction | `business-value` |
 | [Dönüşüm Oranı](terms/tr/d/conversion-rate.md) | Conversion Rate (CR) | `success-criteria` |
+| [Durumsuz ve Durumlu Yapı](terms/tr/d/stateless-vs-stateful.md) | Stateless vs. Stateful | `architecture-technology` |
 
 ### E
 
@@ -69,6 +82,8 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Gelir Yaratma ve Artırma](terms/tr/g/revenue-generation-uplift.md) | Revenue Generation / Uplift | `business-value` |
 | [Gereksinim İzlenebilirlik Matrisi](terms/tr/g/requirements-traceability-matrix.md) | Requirements Traceability Matrix (RTM) | `scope-definition` |
 | [Geri Ödeme Süresi](terms/tr/g/payback-period.md) | Payback Period | `feasibility-analysis` |
+| [GraphQL](terms/tr/g/graphql.md) | GraphQL | `architecture-technology` |
+| [gRPC ve Protocol Buffers](terms/tr/g/grpc-protocol-buffers.md) | gRPC / Protocol Buffers | `architecture-technology` |
 
 ### H
 
@@ -86,6 +101,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [İlişkisel ve NoSQL Veritabanı Seçimi](terms/tr/i/relational-vs-nosql-databases.md) | Relational (SQL) vs. NoSQL Databases | `architecture-technology` |
 | [İşlem Hacmi Kapasitesi](terms/tr/i/throughput-rps-tps.md) | Throughput (RPS / TPS) | `success-criteria` |
 | [İş Değeri](terms/tr/i/business-value.md) | Business Value | `business-value` |
 | [İş Gereksinimleri Dokümanı](terms/tr/i/business-requirements-document.md) | Business Requirements Document (BRD) | `scope-definition` |
@@ -105,6 +121,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Kapsam Kayması / Kontrolsüz Şişme](terms/tr/k/scope-creep.md) | Scope Creep | `scope-definition` |
 | [Kapsam Mutabakatı ve Resmi Onay](terms/tr/k/sign-off-on-scope.md) | Sign-off on Scope | `scope-definition` |
 | [Kapsam Taban Çizgisi](terms/tr/k/scope-baseline.md) | Scope Baseline | `scope-definition` |
+| [Katmanlı ve Bağımsız Mimari](terms/tr/k/clean-onion-hexagonal-architecture.md) | Clean / Onion / Hexagonal Architecture | `architecture-technology` |
 | [Kavram Kanıtı](terms/tr/k/poc.md) | Proof of Concept (PoC) | `feasibility-analysis` |
 | [Kayıp / Terk Oranı](terms/tr/k/churn-rate.md) | Churn Rate | `success-criteria` |
 | [Kök Neden Analizi](terms/tr/k/root-cause-analysis.md) | Root Cause Analysis (RCA) | `problem-definition` |
@@ -121,7 +138,12 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Maliyetten Kaçınma](terms/tr/m/cost-avoidance.md) | Cost Avoidance | `business-value` |
 | [Maliyet Azaltma](terms/tr/m/cost-reduction.md) | Cost Reduction | `business-value` |
 | [Marka Değeri ve Güvenilirlik](terms/tr/m/brand-equity-trust.md) | Brand Equity & Trust | `business-value` |
+| [Mesaj Kuyruğu ve Olay Akışı](terms/tr/m/message-broker-event-streaming.md) | Message Broker / Event Streaming | `architecture-technology` |
 | [Mevcut Durum Analizi](terms/tr/m/as-is-analysis.md) | As-Is Analysis | `problem-definition` |
+| [Mikroservis Mimarisi](terms/tr/m/microservices-architecture.md) | Microservices Architecture | `architecture-technology` |
+| [Mimari Karar Kaydı](terms/tr/m/architectural-decision-record.md) | Architectural Decision Record (ADR) | `architecture-technology` |
+| [Modüler Monolit](terms/tr/m/modular-monolith.md) | Modular Monolith | `architecture-technology` |
+| [Monolitik Mimari](terms/tr/m/monolithic-architecture.md) | Monolithic Architecture | `architecture-technology` |
 | [Müşteri Edinme Maliyetinin Düşürülmesi](terms/tr/m/cac-reduction.md) | CAC Reduction (Customer Acquisition Cost) | `business-value` |
 | [Müşteri Memnuniyeti ve Efor Skoru](terms/tr/m/csat-ces.md) | CSAT & CES (Customer Satisfaction & Effort Score) | `success-criteria` |
 | [Müşteri Tavsiye Skoru Etkisi](terms/tr/m/net-promoter-score-impact.md) | Net Promoter Score (NPS) Impact | `business-value` |
@@ -133,12 +155,14 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [Nasıl Yapabiliriz? Sorusu](terms/tr/n/how-might-we.md) | How Might We (HMW) | `problem-definition` |
+| [Nesne-İlişkisel Eşleme](terms/tr/n/orm-data-mapper.md) | ORM / Data Mapper | `architecture-technology` |
 | [Net Bugünkü Değer](terms/tr/n/npv.md) | Net Present Value (NPV) | `feasibility-analysis` |
 
 ### O
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Olay Güdümlü Mimari](terms/tr/o/event-driven-architecture.md) | Event-Driven Architecture (EDA) | `architecture-technology` |
 | [Operasyonel Fizibilite](terms/tr/o/operational-feasibility.md) | Operational Feasibility | `feasibility-analysis` |
 | [Operasyonel Verimlilik](terms/tr/o/operational-efficiency.md) | Operational Efficiency | `business-value` |
 | [Ortalama Kurtarma ve Arıza Arası Süre](terms/tr/o/mttr-mtbf.md) | MTTR & MTBF | `success-criteria` |
@@ -147,6 +171,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
+| [Ödünleşim Analizi](terms/tr/o/trade-off-analysis.md) | Trade-off Analysis | `architecture-technology` |
 | [Ölçeklenebilirlik ve Kapasite Planlama](terms/tr/o/scalability-capacity-planning.md) | Scalability & Capacity Planning | `feasibility-analysis` |
 | [Ölçülebilir ve Ölçülemeyen Değer](terms/tr/o/quantifiable-vs-unquantifiable-value.md) | Quantifiable vs. Unquantifiable Value | `business-value` |
 | [Öncü ve Artçı Göstergeler](terms/tr/o/leading-vs-lagging-indicators.md) | Leading vs. Lagging Indicators | `success-criteria` |
@@ -167,6 +192,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | :--- | :--- | :--- |
 | [Regülatif Uyum](terms/tr/r/regulatory-compliance.md) | Regulatory Compliance | `feasibility-analysis` |
 | [Rekabet Avantajı](terms/tr/r/competitive-advantage.md) | Competitive Advantage / Edge | `business-value` |
+| [RESTful API](terms/tr/r/restful-api.md) | RESTful API | `architecture-technology` |
 | [Risk Azaltma Değeri](terms/tr/r/risk-mitigation-value.md) | Risk Mitigation Value | `business-value` |
 
 ### S
@@ -175,10 +201,12 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | :--- | :--- | :--- |
 | [Semptom ve Kök Neden Ayrımı](terms/tr/s/symptom-vs-root-cause.md) | Symptom vs. Root Cause | `problem-definition` |
 | [Sermaye Harcaması](terms/tr/s/capex.md) | Capital Expenditures (CapEx) | `feasibility-analysis` |
+| [Servis Ağı](terms/tr/s/service-mesh.md) | Service Mesh | `architecture-technology` |
 | [Sistem Erişilebilirliği](terms/tr/s/system-availability-uptime.md) | System Availability / Uptime | `success-criteria` |
 | [Sistem Sınır Çizgisi / Bağlam Diyagramı](terms/tr/s/system-boundary-context-diagram.md) | System Boundary / Context Diagram | `scope-definition` |
 | [SMART Hedef Standardı](terms/tr/s/smart-criteria.md) | SMART Criteria | `success-criteria` |
 | [Stratejik Uyum](terms/tr/s/strategic-alignment.md) | Strategic Alignment | `business-value` |
+| [Sunucusuz Mimari](terms/tr/s/serverless-faas.md) | Serverless / FaaS | `architecture-technology` |
 
 ### T
 
@@ -192,6 +220,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Teknik Araştırma Görevi (Spike)](terms/tr/t/technical-spike.md) | Technical Spike | `feasibility-analysis` |
 | [Teknik Borç Analizi](terms/tr/t/technical-debt-assessment.md) | Technical Debt Assessment | `feasibility-analysis` |
 | [Teknik Fizibilite](terms/tr/t/technical-feasibility.md) | Technical Feasibility | `feasibility-analysis` |
+| [Teknoloji Yığını](terms/tr/t/tech-stack.md) | Tech Stack | `architecture-technology` |
 | [Temel Performans Göstergesi](terms/tr/t/kpi.md) | Key Performance Indicator (KPI) | `success-criteria` |
 | [Test Kapsama Oranı](terms/tr/t/test-automation-coverage.md) | Test Automation Coverage | `success-criteria` |
 | [Tolerans / Eşik Değeri](terms/tr/t/threshold-tolerance-limit.md) | Threshold / Tolerance Limit | `success-criteria` |
@@ -205,6 +234,7 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | [Yapılacak İşler Çerçevesi](terms/tr/y/jobs-to-be-done.md) | Jobs to be Done (JTBD) | `problem-definition` |
 | [Yasal Uyum ve Ceza Önleme](terms/tr/y/compliance-penalty-avoidance.md) | Compliance & Penalty Avoidance | `business-value` |
 | [Yasal ve Hukuki Uygunluk](terms/tr/y/legal-compliance-feasibility.md) | Legal / Compliance Feasibility | `feasibility-analysis` |
+| [Yatay ve Dikey Ölçekleme](terms/tr/y/horizontal-vs-vertical-scaling.md) | Horizontal vs. Vertical Scaling | `architecture-technology` |
 | [Yatırım Getirisi](terms/tr/y/roi.md) | Return on Investment (ROI) | `feasibility-analysis` |
 | [Yazılım Gereksinim Şartnamesi](terms/tr/y/software-requirements-specification.md) | Software Requirements Specification (SRS) | `scope-definition` |
 
@@ -219,6 +249,12 @@ Kişisel teknik terim sözlüğü ve kavram fihristi.
 | Terim (TR) | İngilizce Karşılık | Alan (Domain) |
 | :--- | :--- | :--- |
 | [5 Neden Analizi](terms/tr/other/five-whys-technique.md) | 5 Whys Technique | `problem-definition` |
+
+### W
+
+| Terim (TR) | İngilizce Karşılık | Alan (Domain) |
+| :--- | :--- | :--- |
+| [WebSocket ve Webhook](terms/tr/w/websocket-webhook.md) | WebSocket / Webhook | `architecture-technology` |
 
 ---
 
